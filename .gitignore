@@ -1,0 +1,11 @@
+# derived data and local config (never commit market data)
+code/work/
+code/config.toml
+*.scid
+*.parquet
+__pycache__/
+.pytest_cache/
+# Obsidian per-device UI state
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/

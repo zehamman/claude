@@ -1,0 +1,8 @@
+# Copy to code/config.toml and edit. Paths may be Windows paths.
+[paths]
+scid = 'D:\SierraChartData\NQ_CONTINUOUS_CAUSAL_2011_2026.scid'
+manifest = 'D:\SierraChartData\NQ_CONTINUOUS_CAUSAL_2011_2026.manifest.csv'
+quality_json = 'D:\SierraChartData\NQ_CONTINUOUS_CAUSAL_2011_2026.quality.json'
+work_dir = 'D:\Trading Bot\code\work'
+vault = 'D:\Trading Bot'
+chunk_records = 10000000
