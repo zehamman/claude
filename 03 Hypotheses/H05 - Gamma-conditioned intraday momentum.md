@@ -1,13 +1,17 @@
 ---
 type: hypothesis
 id: H05
-status: pre-registered
+status: parked
 data: [nq-scid, options-eod-oi-iv (not yet acquired)]
 baseline: "[[H04 - Market intraday momentum (NQ-only)]]"
 experiment: "[[E040 - Intraday momentum]]"
 tags: [gex, intraday-momentum, options-increment]
 ---
 # H05 — Gamma-conditioned intraday momentum
+
+> [!warning] Parked (2026-10-12)
+> Written ahead of schedule in session 1. Not to be run or extended until strategy research is explicitly started. See [[Working Agreement]] and [[Session Log]].
+
 
 ## Mechanism
 Short-gamma dealers rebalance hedges toward the close in the direction of the day's move. When estimated dealer gamma is **negative**, last-half-hour momentum should be **stronger**. When positive, it should be weaker or reversed (Baltussen et al. 2021 report this for gamma imbalance).

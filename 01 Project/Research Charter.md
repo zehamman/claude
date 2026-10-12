@@ -5,7 +5,13 @@ tags: [charter]
 ---
 # Research Charter
 
-## Objective
+## End goal
+1. An algorithm that **passes prop-firm evaluations** and keeps **funded accounts**.
+2. A trading algorithm that is **statistically proven profitable**.
+
+Edge comes first; eval-rule fitting second. See [[Prop Firm Evaluation Goal]]. Original context: [[Project Brief (original)]]. How we work: [[Working Agreement]].
+
+## Research objective
 Build, or rule out, a systematic NQ futures strategy using executed-trade order flow, and test whether options information (flow or model-estimated GEX) adds **measurable out-of-sample value** over an NQ-only baseline.
 
 ## What counts as success
@@ -21,6 +27,9 @@ Build, or rule out, a systematic NQ futures strategy using executed-trade order 
 - Live automation and execution infrastructure.
 - Sub-second / queue-position strategies. With executed trades only and no order-book history, these can't be tested honestly (see [[Data - Depth and Level 3 (MBO)]]).
 - Buying full MBO history.
+
+## Current stage
+**Data audit.** Strategy research hasn't started. Hypotheses H00–H07 and their experiment plans exist but are **parked** until you say to begin.
 
 ## Prior expectations (written before seeing any results)
 - Trade-sign imbalance has well-documented **very short-horizon** predictability (seconds to a few minutes). At 5–30 minute horizons, after a ~0.7-point round-trip cost, the prior is that it **does not** survive. I expect H01/H02 to fail. [[Literature - Prior Evidence]]

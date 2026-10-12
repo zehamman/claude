@@ -1,10 +1,14 @@
 ---
 type: experiment
 id: E002
-status: ready-after-bars
+status: parked
 hypothesis: "[[H00 - Baselines and cost hurdle]]"
 ---
 # E002 — Baselines on DEV (plan)
+
+> [!warning] Parked (2026-10-12)
+> Written ahead of schedule in session 1. Not to be run or extended until strategy research is explicitly started. See [[Working Agreement]] and [[Session Log]].
+
 
 ```powershell
 python scripts\build_bars.py          # once, after E001

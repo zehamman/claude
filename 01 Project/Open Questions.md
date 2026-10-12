@@ -20,3 +20,9 @@ tags: [todo, verify]
 - [ ] Massive options tiers: history depth, quotes, OI. [[Vendor - Massive (formerly Polygon)]]
 - [ ] Exact effective date of QQQ Tue/Thu expirations; launch dates of CME E-mini Nasdaq-100 Tue/Thu weeklies and the Micro daily options.
 - [ ] Sierra historical depth retention for CME on your package (the brief's 180 days; forum reports ~6 months). [[Data - Depth and Level 3 (MBO)]]
+
+## Prop firm (see [[Prop Firm Evaluation Goal]])
+- [ ] Which firm(s) and account size(s)?
+- [ ] Automated trading allowed in eval **and** funded accounts?
+- [ ] NQ or MNQ?
+- [ ] Commission per round trip at that firm; eval and reset costs.

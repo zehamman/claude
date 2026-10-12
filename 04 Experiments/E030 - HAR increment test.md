@@ -1,10 +1,14 @@
 ---
 type: experiment
 id: E030
-status: ready-after-bars (VXN-only part)
+status: parked
 hypothesis: "[[H03 - Estimated GEX and next-session realized volatility]]"
 ---
 # E030 — HAR increment test (plan)
+
+> [!warning] Parked (2026-10-12)
+> Written ahead of schedule in session 1. Not to be run or extended until strategy research is explicitly started. See [[Working Agreement]] and [[Session Log]].
+
 
 Step 1 (free, now): download VXNCLS from FRED into `code/work/VXNCLS.csv`, then
 ```powershell

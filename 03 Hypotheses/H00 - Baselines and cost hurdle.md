@@ -1,12 +1,16 @@
 ---
 type: hypothesis
 id: H00
-status: pre-registered
+status: parked
 data: [nq-scid]
 experiment: "[[E002 - Baselines on DEV]]"
 tags: [baseline]
 ---
 # H00 — Baselines and cost hurdle
+
+> [!warning] Parked (2026-10-12)
+> Written ahead of schedule in session 1. Not to be run or extended until strategy research is explicitly started. See [[Working Agreement]] and [[Session Log]].
+
 
 Not a trading idea. It's the yardstick every strategy is measured against.
 

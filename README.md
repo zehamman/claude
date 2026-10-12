@@ -12,6 +12,8 @@ python -m pytest -q tests                      # 21 tests on synthetic data
 ```
 
 ## Run order
+Current stage is the **data audit** (steps 1–2). Steps 3–7 belong to strategy research, which is **parked** until it's explicitly started (see `01 Project/Working Agreement.md`).
+
 | Step | Command (from `code/`) | Writes vault note |
 |---|---|---|
 | 1 | `python scripts\inspect_manifest.py` | — (paste the header into *Data - Contract Rolls and Manifest*) |

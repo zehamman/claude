@@ -1,12 +1,16 @@
 ---
 type: hypothesis
 id: H03
-status: pre-registered
+status: parked
 data: [nq-scid, vxn, options-eod-oi-iv (not yet acquired)]
 experiment: "[[E030 - HAR increment test]]"
 tags: [gex, volatility, options]
 ---
 # H03 — Estimated GEX and next-session realized volatility
+
+> [!warning] Parked (2026-10-12)
+> Written ahead of schedule in session 1. Not to be run or extended until strategy research is explicitly started. See [[Working Agreement]] and [[Session Log]].
+
 
 ## Mechanism
 Delta-hedging dealers who are **long gamma** sell rallies and buy dips, which damps realized volatility. **Short-gamma** dealers hedge in the direction of the move, which amplifies it.

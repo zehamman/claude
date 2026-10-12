@@ -1,12 +1,16 @@
 ---
 type: hypothesis
 id: H04
-status: pre-registered
+status: parked
 data: [nq-scid]
 experiment: "[[E040 - Intraday momentum]]"
 tags: [intraday-momentum, baseline, trades-only]
 ---
 # H04 — Market intraday momentum (NQ-only)
+
+> [!warning] Parked (2026-10-12)
+> Written ahead of schedule in session 1. Not to be run or extended until strategy research is explicitly started. See [[Working Agreement]] and [[Session Log]].
+
 
 ## Mechanism
 Published in index ETFs and futures (Gao, Han, Li & Zhou 2018; Baltussen, Da, Lammers & Martens 2021): the return earlier in the day predicts the **last half-hour** return. Proposed drivers are late-day hedging by short-gamma intermediaries and leveraged-ETF rebalancing, plus infrequent rebalancers and late-informed traders. See [[Literature - Prior Evidence]].

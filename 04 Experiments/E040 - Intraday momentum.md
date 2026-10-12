@@ -1,10 +1,14 @@
 ---
 type: experiment
 id: E040
-status: ready-after-bars
+status: parked
 hypotheses: ["[[H04 - Market intraday momentum (NQ-only)]]", "[[H05 - Gamma-conditioned intraday momentum]]"]
 ---
 # E040 — Intraday momentum (plan)
+
+> [!warning] Parked (2026-10-12)
+> Written ahead of schedule in session 1. Not to be run or extended until strategy research is explicitly started. See [[Working Agreement]] and [[Session Log]].
+
 
 ```powershell
 python scripts\run_intraday_momentum.py --period dev

@@ -1,13 +1,17 @@
 ---
 type: hypothesis
 id: H01
-status: pre-registered
+status: parked
 data: [nq-scid]
 control: P01 price momentum
 experiment: "[[E010 - Order-flow DEV grid]]"
 tags: [order-flow, trades-only]
 ---
 # H01 — Order-flow imbalance continuation
+
+> [!warning] Parked (2026-10-12)
+> Written ahead of schedule in session 1. Not to be run or extended until strategy research is explicitly started. See [[Working Agreement]] and [[Session Log]].
+
 
 ## Mechanism
 Large parents (institutional metaorders) are split into many child trades on the same side. Order flow is therefore persistent (long memory of trade signs), and price impact accumulates while the parent is being worked.

@@ -1,12 +1,16 @@
 ---
 type: hypothesis
 id: H06
-status: draft
+status: parked
 data: [nq-scid, options-eod-oi-iv]
 depends_on: ["[[H01 - Order-flow imbalance continuation]]", "[[H02 - Absorption reversal]]"]
 tags: [gex, order-flow, options-increment]
 ---
 # H06 — Gamma-conditioned order-flow signal (draft)
+
+> [!warning] Parked (2026-10-12)
+> Written ahead of schedule in session 1. Not to be run or extended until strategy research is explicitly started. See [[Working Agreement]] and [[Session Log]].
+
 
 ## Idea
 In negative-gamma regimes, hedging amplifies flow-driven moves (continuation, H01). In positive-gamma regimes, dealers absorb them (reversal, H02).

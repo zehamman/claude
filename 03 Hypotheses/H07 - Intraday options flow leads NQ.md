@@ -1,11 +1,15 @@
 ---
 type: hypothesis
 id: H07
-status: deferred
+status: parked
 data: [opra-trades-quotes or cme-options-trades (not acquired)]
 tags: [options-flow, deferred]
 ---
 # H07 — Intraday options flow leads NQ (deferred)
+
+> [!warning] Parked (2026-10-12)
+> Written ahead of schedule in session 1. Not to be run or extended until strategy research is explicitly started. See [[Working Agreement]] and [[Session Log]].
+
 
 ## Idea
 Aggressive, delta-weighted QQQ/NDX (or NQ-option) customer buying over the last N minutes precedes NQ moves in the same direction, as dealers hedge the delta they just took on.

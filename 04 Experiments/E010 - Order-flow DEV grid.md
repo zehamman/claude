@@ -1,10 +1,14 @@
 ---
 type: experiment
 id: E010
-status: ready-after-bars
+status: parked
 hypotheses: ["[[H01 - Order-flow imbalance continuation]]", "[[H02 - Absorption reversal]]"]
 ---
 # E010 — Order-flow DEV grid (plan)
+
+> [!warning] Parked (2026-10-12)
+> Written ahead of schedule in session 1. Not to be run or extended until strategy research is explicitly started. See [[Working Agreement]] and [[Session Log]].
+
 
 ```powershell
 python scripts\run_flow_study.py --period dev

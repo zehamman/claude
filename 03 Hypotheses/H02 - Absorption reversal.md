@@ -1,13 +1,17 @@
 ---
 type: hypothesis
 id: H02
-status: pre-registered
+status: parked
 data: [nq-scid]
 control: P02 price reversal
 experiment: "[[E010 - Order-flow DEV grid]]"
 tags: [order-flow, trades-only]
 ---
 # H02 — Absorption reversal
+
+> [!warning] Parked (2026-10-12)
+> Written ahead of schedule in session 1. Not to be run or extended until strategy research is explicitly started. See [[Working Agreement]] and [[Session Log]].
+
 
 ## Mechanism
 When heavy one-sided aggression fails to move price, a large passive participant (possibly informed, or a liquidity provider with inventory capacity) is absorbing it. Once the aggressive side is exhausted, price moves **against** the aggressors.

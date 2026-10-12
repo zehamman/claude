@@ -21,5 +21,8 @@ NQ: $20 per point. Tick 0.25 = $5. Costs are per contract per round trip, applie
 - **Latency:** decisions at minute boundaries. The assumed latency is "fill at the next bar's open". Not valid for second-scale strategies.
 - **Not modelled:** market impact beyond one contract, partial fills, limit-order queue position. Limit-order strategies are out of scope without depth data.
 
+## Prop-firm accounts
+When a firm is chosen, replace the fee figures with that firm's commission schedule, and add eval/reset fees to the pass economics. See [[Prop Firm Evaluation Goal]].
+
 ## Rule
 A result counts only if it's positive under **base**. Optimistic-only results are reported as "not robust to costs".
